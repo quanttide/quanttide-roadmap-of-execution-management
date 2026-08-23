@@ -1,0 +1,21 @@
+version: 1
+project:
+  title: 量潮执行管理路线图
+  description: 执行管理领域的演化过程——从现状走向意图的路径
+  keywords:
+    - 量潮执行云
+    - 执行管理
+    - 路线图
+  authors:
+    - name: 量潮科技
+  license: CC-BY-4.0
+  exclude:
+    - CHANGELOG.md
+  toc:
+    - file: README.md
+    - title: 演化
+      children:
+        - file: index.md
+        - file: intro/evolution-of-memory-subject.md
+site:
+  template: book-theme
